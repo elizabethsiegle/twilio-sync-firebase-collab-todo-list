@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44460E591F720AE200909911 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44460E581F720AE200909911 /* AddToDoViewController.swift */; };
 		445B3AF11F6F806E0030CF62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B3AF01F6F806E0030CF62 /* AppDelegate.swift */; };
-		445B3AF31F6F806E0030CF62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B3AF21F6F806E0030CF62 /* ViewController.swift */; };
 		445B3AF61F6F806E0030CF62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B3AF41F6F806E0030CF62 /* Main.storyboard */; };
 		445B3AF81F6F806E0030CF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445B3AF71F6F806E0030CF62 /* Assets.xcassets */; };
 		445B3AFB1F6F806E0030CF62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B3AF91F6F806E0030CF62 /* LaunchScreen.storyboard */; };
+		445B3B031F6F82A70030CF62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 445B3B021F6F82A70030CF62 /* GoogleService-Info.plist */; };
+		44C0E9A41F70C70F00C476CF /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0E9A31F70C70F00C476CF /* ToDoListTableViewController.swift */; };
+		44C0E9A61F70CFD800C476CF /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0E9A51F70CFD800C476CF /* ToDoItem.swift */; };
+		8891E40578580230EFEB2992 /* Pods_TwilioSyncCollabToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C7DBA82AAB0591FBAD4421 /* Pods_TwilioSyncCollabToDoList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E6979D1DB10DE7EC7FFAB0D /* Pods-TwilioSyncCollabToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioSyncCollabToDoList.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioSyncCollabToDoList/Pods-TwilioSyncCollabToDoList.release.xcconfig"; sourceTree = "<group>"; };
+		44460E581F720AE200909911 /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		445B3AED1F6F806E0030CF62 /* TwilioSyncCollabToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwilioSyncCollabToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445B3AF01F6F806E0030CF62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		445B3AF21F6F806E0030CF62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		445B3AF51F6F806E0030CF62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		445B3AF71F6F806E0030CF62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		445B3AFA1F6F806E0030CF62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		445B3AFC1F6F806E0030CF62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445B3B021F6F82A70030CF62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44C0E9A31F70C70F00C476CF /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		44C0E9A51F70CFD800C476CF /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		525BBBEAE4BA1779F6A559C1 /* Pods-TwilioSyncCollabToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioSyncCollabToDoList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwilioSyncCollabToDoList/Pods-TwilioSyncCollabToDoList.debug.xcconfig"; sourceTree = "<group>"; };
+		70C7DBA82AAB0591FBAD4421 /* Pods_TwilioSyncCollabToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwilioSyncCollabToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8891E40578580230EFEB2992 /* Pods_TwilioSyncCollabToDoList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066945C6302689574A429A22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C7DBA82AAB0591FBAD4421 /* Pods_TwilioSyncCollabToDoList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		445B3AE41F6F806E0030CF62 = {
 			isa = PBXGroup;
 			children = (
 				445B3AEF1F6F806E0030CF62 /* TwilioSyncCollabToDoList */,
 				445B3AEE1F6F806E0030CF62 /* Products */,
+				65551EE410C34B213F15D718 /* Pods */,
+				066945C6302689574A429A22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,26 @@
 		445B3AEF1F6F806E0030CF62 /* TwilioSyncCollabToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				445B3B021F6F82A70030CF62 /* GoogleService-Info.plist */,
 				445B3AF01F6F806E0030CF62 /* AppDelegate.swift */,
-				445B3AF21F6F806E0030CF62 /* ViewController.swift */,
 				445B3AF41F6F806E0030CF62 /* Main.storyboard */,
+				44C0E9A51F70CFD800C476CF /* ToDoItem.swift */,
+				44C0E9A31F70C70F00C476CF /* ToDoListTableViewController.swift */,
+				44460E581F720AE200909911 /* AddToDoViewController.swift */,
 				445B3AF71F6F806E0030CF62 /* Assets.xcassets */,
 				445B3AF91F6F806E0030CF62 /* LaunchScreen.storyboard */,
 				445B3AFC1F6F806E0030CF62 /* Info.plist */,
 			);
 			path = TwilioSyncCollabToDoList;
+			sourceTree = "<group>";
+		};
+		65551EE410C34B213F15D718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525BBBEAE4BA1779F6A559C1 /* Pods-TwilioSyncCollabToDoList.debug.xcconfig */,
+				2E6979D1DB10DE7EC7FFAB0D /* Pods-TwilioSyncCollabToDoList.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 445B3AFF1F6F806E0030CF62 /* Build configuration list for PBXNativeTarget "TwilioSyncCollabToDoList" */;
 			buildPhases = (
+				C83DB5384876EAFD6BFB3189 /* [CP] Check Pods Manifest.lock */,
 				445B3AE91F6F806E0030CF62 /* Sources */,
 				445B3AEA1F6F806E0030CF62 /* Frameworks */,
 				445B3AEB1F6F806E0030CF62 /* Resources */,
+				90E107BF6F1231A20946A76A /* [CP] Embed Pods Frameworks */,
+				913771215937D563C5438FFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				445B3AFB1F6F806E0030CF62 /* LaunchScreen.storyboard in Resources */,
+				445B3B031F6F82A70030CF62 /* GoogleService-Info.plist in Resources */,
 				445B3AF81F6F806E0030CF62 /* Assets.xcassets in Resources */,
 				445B3AF61F6F806E0030CF62 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +169,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90E107BF6F1231A20946A76A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TwilioSyncCollabToDoList/Pods-TwilioSyncCollabToDoList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/TwilioSyncClient/TwilioSyncClient.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioSyncClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwilioSyncCollabToDoList/Pods-TwilioSyncCollabToDoList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913771215937D563C5438FFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwilioSyncCollabToDoList/Pods-TwilioSyncCollabToDoList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C83DB5384876EAFD6BFB3189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwilioSyncCollabToDoList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		445B3AE91F6F806E0030CF62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445B3AF31F6F806E0030CF62 /* ViewController.swift in Sources */,
 				445B3AF11F6F806E0030CF62 /* AppDelegate.swift in Sources */,
+				44460E591F720AE200909911 /* AddToDoViewController.swift in Sources */,
+				44C0E9A61F70CFD800C476CF /* ToDoItem.swift in Sources */,
+				44C0E9A41F70C70F00C476CF /* ToDoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +358,7 @@
 		};
 		445B3B001F6F806E0030CF62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525BBBEAE4BA1779F6A559C1 /* Pods-TwilioSyncCollabToDoList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6NUB37727Z;
@@ -274,6 +372,7 @@
 		};
 		445B3B011F6F806E0030CF62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6979D1DB10DE7EC7FFAB0D /* Pods-TwilioSyncCollabToDoList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6NUB37727Z;
@@ -304,6 +403,7 @@
 				445B3B011F6F806E0030CF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

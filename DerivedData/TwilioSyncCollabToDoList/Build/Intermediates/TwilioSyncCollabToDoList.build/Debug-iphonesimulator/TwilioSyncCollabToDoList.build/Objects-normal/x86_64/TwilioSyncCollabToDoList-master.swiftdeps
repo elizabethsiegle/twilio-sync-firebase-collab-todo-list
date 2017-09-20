@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "66ab1bfb1f69346685b76777ff8c714f"
+build_time: [559197539, 933456000]
+inputs:
+  "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/TwilioSyncCollabToDoList/AppDelegate.swift": [559023509, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/TwilioSyncCollabToDoList/AddToDoViewController.swift": [559196989, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/TwilioSyncCollabToDoList/ToDoItem.swift": [559109729, 0]
+  "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/TwilioSyncCollabToDoList/ToDoListTableViewController.swift": [559197539, 0]
