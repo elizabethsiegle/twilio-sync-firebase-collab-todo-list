@@ -1,0 +1,181 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ToDoItem"
+provides-nominal:
+- "24TwilioSyncCollabToDoList0dE4ItemC"
+provides-member:
+- ["24TwilioSyncCollabToDoList0dE4ItemC", ""]
+provides-dynamic-lookup:
+- "completed"
+- "creationDate"
+- "itemName"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "NSDate"
+- "NSObject"
+- "NSString"
+- "String"
+- "StringLiteralType"
+- "ToDoItem"
+depends-member:
+- ["s7CVarArgP", "NSDate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "itemName"]
+- ["s7CVarArgP", ""]
+- ["s28CustomDebugStringConvertibleP", "NSDate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "itemName"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "NSDate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "itemName"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9EquatableP", "NSDate"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "itemName"]
+- ["s9EquatableP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "NSDate"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "itemName"]
+- ["s8HashableP", ""]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So6NSDateC", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "NSDate"]
+- ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "completed"]
+- ["So8NSObjectC", "creationDate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "itemName"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "NSDate"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "itemName"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s12StaticStringV", "init"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "Bool"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "NSDate"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "NSString"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "String"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "completed"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "creationDate"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "deinit"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "init"]
+- ["24TwilioSyncCollabToDoList0dE4ItemC", "itemName"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSDate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So6NSDateC"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s12StaticStringV"
+- "24TwilioSyncCollabToDoList0dE4ItemC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMapItem.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSListItem.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMap.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSError.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMapPaginator.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSListPaginator.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSOpenOptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMapQueryOptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSListQueryOptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSConstants.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSResult.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TwilioSyncClient.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSDocument.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSList.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8c879330b8122d4a5355a426aa2ba2c6"
