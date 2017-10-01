@@ -183,19 +183,20 @@ SWIFT_CLASS("_TtC24TwilioSyncCollabToDoList8ToDoItem")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
+@class TwilioSyncClient;
 @class NSMutableArray;
 @class UITableView;
 @class UITableViewCell;
 
 SWIFT_CLASS("_TtC24TwilioSyncCollabToDoList27ToDoListTableViewController")
 @interface ToDoListTableViewController : UITableViewController
+@property (nonatomic, strong) TwilioSyncClient * _Nullable syncClient;
 @property (nonatomic, strong) NSMutableArray * _Nonnull toDoItems;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (IBAction)unwindToListWithSegue:(UIStoryboardSegue * _Nonnull)segue;
-- (void)loadInitialData;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;

@@ -7,15 +7,14 @@ provides-member:
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", ""]
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
-- "loadInitialData"
 - "numberOfSections"
+- "syncClient"
 - "tableView"
 - "toDoItems"
 - "unwindToList"
 - "viewDidLoad"
 depends-top-level:
 - !private "!"
-- !private "!="
 - !private "AddToDoViewController"
 - "Array"
 - "AssignmentPrecedence"
@@ -29,25 +28,28 @@ depends-top-level:
 - !private "StringLiteralType"
 - !private "ToDoItem"
 - "ToDoListTableViewController"
+- "TwilioSyncClient"
 - "UIStoryboardSegue"
 - "UITableView"
 - "UITableViewCell"
 - "UITableViewController"
 depends-member:
 - !private ["C24TwilioSyncCollabToDoList21AddToDoViewController", "toDoItem"]
-- !private ["Ps9AnyObject", "ToDoItem"]
 - !private ["Ps9AnyObject", "accessoryType"]
 - !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "clearsSelectionOnViewWillAppear"]
 - !private ["Ps9AnyObject", "completed"]
 - !private ["Ps9AnyObject", "count"]
 - !private ["Ps9AnyObject", "dequeueReusableCell"]
 - !private ["Ps9AnyObject", "deselectRow"]
 - !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "editButtonItem"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "itemName"]
-- !private ["Ps9AnyObject", "loadInitialData"]
+- !private ["Ps9AnyObject", "navigationItem"]
 - !private ["Ps9AnyObject", "object"]
 - !private ["Ps9AnyObject", "reloadData"]
+- !private ["Ps9AnyObject", "rightBarButtonItem"]
 - !private ["Ps9AnyObject", "source"]
 - !private ["Ps9AnyObject", "tableView"]
 - !private ["Ps9AnyObject", "text"]
@@ -64,19 +66,21 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "reloadData"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["PSo15CALayerDelegate", "textLabel"]
-- !private ["Ps7CVarArg", "ToDoItem"]
 - !private ["Ps7CVarArg", "accessoryType"]
 - !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "clearsSelectionOnViewWillAppear"]
 - !private ["Ps7CVarArg", "completed"]
 - !private ["Ps7CVarArg", "count"]
 - !private ["Ps7CVarArg", "dequeueReusableCell"]
 - !private ["Ps7CVarArg", "deselectRow"]
 - !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "editButtonItem"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "itemName"]
-- !private ["Ps7CVarArg", "loadInitialData"]
+- !private ["Ps7CVarArg", "navigationItem"]
 - !private ["Ps7CVarArg", "object"]
 - !private ["Ps7CVarArg", "reloadData"]
+- !private ["Ps7CVarArg", "rightBarButtonItem"]
 - !private ["Ps7CVarArg", "source"]
 - !private ["Ps7CVarArg", "tableView"]
 - !private ["Ps7CVarArg", "text"]
@@ -86,21 +90,22 @@ depends-member:
 - !private ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Collection", "row"]
-- !private ["Ps10Comparable", "init"]
 - !private ["Ps10Comparable", "row"]
-- !private ["Ps28CustomDebugStringConvertible", "ToDoItem"]
 - !private ["Ps28CustomDebugStringConvertible", "accessoryType"]
 - !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "clearsSelectionOnViewWillAppear"]
 - !private ["Ps28CustomDebugStringConvertible", "completed"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCell"]
 - !private ["Ps28CustomDebugStringConvertible", "deselectRow"]
 - !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "editButtonItem"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "itemName"]
-- !private ["Ps28CustomDebugStringConvertible", "loadInitialData"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
 - !private ["Ps28CustomDebugStringConvertible", "object"]
 - !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "rightBarButtonItem"]
 - !private ["Ps28CustomDebugStringConvertible", "row"]
 - !private ["Ps28CustomDebugStringConvertible", "source"]
 - !private ["Ps28CustomDebugStringConvertible", "tableView"]
@@ -118,20 +123,22 @@ depends-member:
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "object"]
 - !private ["Ps17CustomReflectable", "row"]
-- !private ["Ps23CustomStringConvertible", "ToDoItem"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "accessoryType"]
 - !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "clearsSelectionOnViewWillAppear"]
 - !private ["Ps23CustomStringConvertible", "completed"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "dequeueReusableCell"]
 - !private ["Ps23CustomStringConvertible", "deselectRow"]
 - !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "editButtonItem"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "itemName"]
-- !private ["Ps23CustomStringConvertible", "loadInitialData"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
 - !private ["Ps23CustomStringConvertible", "object"]
 - !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "rightBarButtonItem"]
 - !private ["Ps23CustomStringConvertible", "row"]
 - !private ["Ps23CustomStringConvertible", "source"]
 - !private ["Ps23CustomStringConvertible", "tableView"]
@@ -141,22 +148,24 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "toDoItems"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
-- !private ["Ps9Equatable", "ToDoItem"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "accessoryType"]
 - !private ["Ps9Equatable", "add"]
 - !private ["Ps9Equatable", "checkmark"]
+- !private ["Ps9Equatable", "clearsSelectionOnViewWillAppear"]
 - !private ["Ps9Equatable", "completed"]
 - !private ["Ps9Equatable", "count"]
 - !private ["Ps9Equatable", "dequeueReusableCell"]
 - !private ["Ps9Equatable", "deselectRow"]
 - !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "editButtonItem"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "itemName"]
-- !private ["Ps9Equatable", "loadInitialData"]
+- !private ["Ps9Equatable", "navigationItem"]
 - !private ["Ps9Equatable", "none"]
 - !private ["Ps9Equatable", "object"]
 - !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "rightBarButtonItem"]
 - !private ["Ps9Equatable", "row"]
 - !private ["Ps9Equatable", "source"]
 - !private ["Ps9Equatable", "tableView"]
@@ -174,22 +183,24 @@ depends-member:
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- !private ["Ps8Hashable", "ToDoItem"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "accessoryType"]
 - !private ["Ps8Hashable", "add"]
 - !private ["Ps8Hashable", "checkmark"]
+- !private ["Ps8Hashable", "clearsSelectionOnViewWillAppear"]
 - !private ["Ps8Hashable", "completed"]
 - !private ["Ps8Hashable", "count"]
 - !private ["Ps8Hashable", "dequeueReusableCell"]
 - !private ["Ps8Hashable", "deselectRow"]
 - !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "editButtonItem"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "itemName"]
-- !private ["Ps8Hashable", "loadInitialData"]
+- !private ["Ps8Hashable", "navigationItem"]
 - !private ["Ps8Hashable", "none"]
 - !private ["Ps8Hashable", "object"]
 - !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "rightBarButtonItem"]
 - !private ["Ps8Hashable", "row"]
 - !private ["Ps8Hashable", "source"]
 - !private ["Ps8Hashable", "tableView"]
@@ -201,23 +212,23 @@ depends-member:
 - ["Ps8Hashable", ""]
 - !private ["V10Foundation9IndexPath", "row"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["Ps10MirrorPath", "init"]
 - !private ["Ps17MutableCollection", "row"]
 - !private ["CSo7NSArray", "add"]
 - !private ["CSo7NSArray", "count"]
 - !private ["CSo7NSArray", "object"]
-- !private ["PSo8NSCoding", "ToDoItem"]
 - !private ["PSo8NSCoding", "accessoryType"]
 - !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo8NSCoding", "count"]
 - !private ["PSo8NSCoding", "dequeueReusableCell"]
 - !private ["PSo8NSCoding", "deselectRow"]
 - !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "editButtonItem"]
 - !private ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "loadInitialData"]
+- !private ["PSo8NSCoding", "navigationItem"]
 - !private ["PSo8NSCoding", "object"]
 - !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "rightBarButtonItem"]
 - !private ["PSo8NSCoding", "tableView"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "textLabel"]
@@ -229,10 +240,11 @@ depends-member:
 - !private ["PSo9NSCopying", "count"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "object"]
-- !private ["PSo26NSExtensionRequestHandling", "ToDoItem"]
+- !private ["PSo26NSExtensionRequestHandling", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "editButtonItem"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "loadInitialData"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - !private ["PSo26NSExtensionRequestHandling", "tableView"]
 - !private ["PSo26NSExtensionRequestHandling", "toDoItem"]
 - !private ["PSo26NSExtensionRequestHandling", "toDoItems"]
@@ -255,23 +267,28 @@ depends-member:
 - !private ["CSo8NSObject", "NSString"]
 - !private ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "ToDoItem"]
+- ["CSo8NSObject", "TwilioSyncClient"]
 - ["CSo8NSObject", "UIStoryboardSegue"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UITableViewCell"]
 - !private ["CSo8NSObject", "accessoryType"]
 - !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "clearsSelectionOnViewWillAppear"]
 - !private ["CSo8NSObject", "completed"]
 - !private ["CSo8NSObject", "count"]
 - !private ["CSo8NSObject", "dequeueReusableCell"]
 - !private ["CSo8NSObject", "deselectRow"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "editButtonItem"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "itemName"]
-- ["CSo8NSObject", "loadInitialData"]
+- !private ["CSo8NSObject", "navigationItem"]
 - ["CSo8NSObject", "numberOfSections"]
 - !private ["CSo8NSObject", "object"]
 - !private ["CSo8NSObject", "reloadData"]
+- !private ["CSo8NSObject", "rightBarButtonItem"]
 - !private ["CSo8NSObject", "source"]
+- ["CSo8NSObject", "syncClient"]
 - ["CSo8NSObject", "tableView"]
 - !private ["CSo8NSObject", "text"]
 - !private ["CSo8NSObject", "textLabel"]
@@ -279,19 +296,21 @@ depends-member:
 - ["CSo8NSObject", "toDoItems"]
 - ["CSo8NSObject", "unwindToList"]
 - ["CSo8NSObject", "viewDidLoad"]
-- !private ["PSo16NSObjectProtocol", "ToDoItem"]
 - !private ["PSo16NSObjectProtocol", "accessoryType"]
 - !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo16NSObjectProtocol", "completed"]
 - !private ["PSo16NSObjectProtocol", "count"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCell"]
 - !private ["PSo16NSObjectProtocol", "deselectRow"]
 - !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "editButtonItem"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "itemName"]
-- !private ["PSo16NSObjectProtocol", "loadInitialData"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
 - !private ["PSo16NSObjectProtocol", "object"]
 - !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
 - !private ["PSo16NSObjectProtocol", "source"]
 - !private ["PSo16NSObjectProtocol", "tableView"]
 - !private ["PSo16NSObjectProtocol", "text"]
@@ -314,12 +333,7 @@ depends-member:
 - !private ["Ps8Sequence", "object"]
 - !private ["Ps8Sequence", "row"]
 - !private ["Vs12StaticString", "init"]
-- !private ["SS", "init"]
-- !private ["Ps16TextOutputStream", "init"]
-- !private ["Ps20TextOutputStreamable", "init"]
 - !private ["C24TwilioSyncCollabToDoList8ToDoItem", "completed"]
-- !private ["C24TwilioSyncCollabToDoList8ToDoItem", "deinit"]
-- !private ["C24TwilioSyncCollabToDoList8ToDoItem", "init"]
 - !private ["C24TwilioSyncCollabToDoList8ToDoItem", "itemName"]
 - !private ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "AddToDoViewController"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "IndexPath"]
@@ -328,14 +342,18 @@ depends-member:
 - !private ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "NSString"]
 - !private ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "String"]
 - !private ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "ToDoItem"]
+- ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "TwilioSyncClient"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "UIStoryboardSegue"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "UITableView"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "UITableViewCell"]
+- !private ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "clearsSelectionOnViewWillAppear"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "deinit"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "didReceiveMemoryWarning"]
+- !private ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "editButtonItem"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "init"]
-- ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "loadInitialData"]
+- !private ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "navigationItem"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "numberOfSections"]
+- ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "syncClient"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "tableView"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "toDoItems"]
 - ["C24TwilioSyncCollabToDoList27ToDoListTableViewController", "unwindToList"]
@@ -352,13 +370,14 @@ depends-member:
 - !private ["PSo12UIAppearance", "reloadData"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "textLabel"]
-- !private ["PSo21UIAppearanceContainer", "ToDoItem"]
 - !private ["PSo21UIAppearanceContainer", "accessoryType"]
+- !private ["PSo21UIAppearanceContainer", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo21UIAppearanceContainer", "dequeueReusableCell"]
 - !private ["PSo21UIAppearanceContainer", "deselectRow"]
 - !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "editButtonItem"]
 - !private ["PSo21UIAppearanceContainer", "init"]
-- !private ["PSo21UIAppearanceContainer", "loadInitialData"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
 - !private ["PSo21UIAppearanceContainer", "tableView"]
 - !private ["PSo21UIAppearanceContainer", "text"]
@@ -367,10 +386,11 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "toDoItems"]
 - !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
-- !private ["PSo18UIContentContainer", "ToDoItem"]
+- !private ["PSo18UIContentContainer", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "editButtonItem"]
 - !private ["PSo18UIContentContainer", "init"]
-- !private ["PSo18UIContentContainer", "loadInitialData"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
 - !private ["PSo18UIContentContainer", "tableView"]
 - !private ["PSo18UIContentContainer", "toDoItem"]
 - !private ["PSo18UIContentContainer", "toDoItems"]
@@ -389,13 +409,14 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "reloadData"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "textLabel"]
-- !private ["PSo18UIFocusEnvironment", "ToDoItem"]
 - !private ["PSo18UIFocusEnvironment", "accessoryType"]
+- !private ["PSo18UIFocusEnvironment", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo18UIFocusEnvironment", "dequeueReusableCell"]
 - !private ["PSo18UIFocusEnvironment", "deselectRow"]
 - !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "editButtonItem"]
 - !private ["PSo18UIFocusEnvironment", "init"]
-- !private ["PSo18UIFocusEnvironment", "loadInitialData"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
 - !private ["PSo18UIFocusEnvironment", "tableView"]
 - !private ["PSo18UIFocusEnvironment", "text"]
@@ -413,6 +434,7 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "accessoryType"]
 - !private ["PSo27UIGestureRecognizerDelegate", "textLabel"]
 - !private ["CSo7UILabel", "text"]
+- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
 - !private ["CSo11UIResponder", "AddToDoViewController"]
 - ["CSo11UIResponder", "IndexPath"]
 - ["CSo11UIResponder", "Int"]
@@ -420,17 +442,21 @@ depends-member:
 - !private ["CSo11UIResponder", "NSString"]
 - !private ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "ToDoItem"]
+- ["CSo11UIResponder", "TwilioSyncClient"]
 - ["CSo11UIResponder", "UIStoryboardSegue"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UITableViewCell"]
 - !private ["CSo11UIResponder", "accessoryType"]
+- !private ["CSo11UIResponder", "clearsSelectionOnViewWillAppear"]
 - !private ["CSo11UIResponder", "dequeueReusableCell"]
 - !private ["CSo11UIResponder", "deselectRow"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "editButtonItem"]
 - ["CSo11UIResponder", "init"]
-- ["CSo11UIResponder", "loadInitialData"]
+- !private ["CSo11UIResponder", "navigationItem"]
 - ["CSo11UIResponder", "numberOfSections"]
 - !private ["CSo11UIResponder", "reloadData"]
+- ["CSo11UIResponder", "syncClient"]
 - ["CSo11UIResponder", "tableView"]
 - !private ["CSo11UIResponder", "text"]
 - !private ["CSo11UIResponder", "textLabel"]
@@ -438,13 +464,14 @@ depends-member:
 - ["CSo11UIResponder", "toDoItems"]
 - ["CSo11UIResponder", "unwindToList"]
 - ["CSo11UIResponder", "viewDidLoad"]
-- !private ["PSo30UIResponderStandardEditActions", "ToDoItem"]
 - !private ["PSo30UIResponderStandardEditActions", "accessoryType"]
+- !private ["PSo30UIResponderStandardEditActions", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo30UIResponderStandardEditActions", "dequeueReusableCell"]
 - !private ["PSo30UIResponderStandardEditActions", "deselectRow"]
 - !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "editButtonItem"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
-- !private ["PSo30UIResponderStandardEditActions", "loadInitialData"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
 - !private ["PSo30UIResponderStandardEditActions", "reloadData"]
 - !private ["PSo30UIResponderStandardEditActions", "tableView"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
@@ -456,18 +483,20 @@ depends-member:
 - !private ["CSo12UIScrollView", "dequeueReusableCell"]
 - !private ["CSo12UIScrollView", "deselectRow"]
 - !private ["CSo12UIScrollView", "reloadData"]
-- !private ["PSo20UIScrollViewDelegate", "ToDoItem"]
+- !private ["PSo20UIScrollViewDelegate", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo20UIScrollViewDelegate", "editButtonItem"]
 - !private ["PSo20UIScrollViewDelegate", "init"]
-- !private ["PSo20UIScrollViewDelegate", "loadInitialData"]
+- !private ["PSo20UIScrollViewDelegate", "navigationItem"]
 - !private ["PSo20UIScrollViewDelegate", "tableView"]
 - !private ["PSo20UIScrollViewDelegate", "toDoItems"]
 - !private ["PSo20UIScrollViewDelegate", "viewDidLoad"]
 - ["PSo20UIScrollViewDelegate", ""]
-- !private ["PSo16UIStateRestoring", "ToDoItem"]
+- !private ["PSo16UIStateRestoring", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "editButtonItem"]
 - !private ["PSo16UIStateRestoring", "init"]
-- !private ["PSo16UIStateRestoring", "loadInitialData"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
 - !private ["PSo16UIStateRestoring", "tableView"]
 - !private ["PSo16UIStateRestoring", "toDoItem"]
 - !private ["PSo16UIStateRestoring", "toDoItems"]
@@ -488,41 +517,48 @@ depends-member:
 - !private ["CSo21UITableViewController", "NSString"]
 - !private ["CSo21UITableViewController", "String"]
 - !private ["CSo21UITableViewController", "ToDoItem"]
+- ["CSo21UITableViewController", "TwilioSyncClient"]
 - ["CSo21UITableViewController", "UIStoryboardSegue"]
 - ["CSo21UITableViewController", "UITableView"]
 - ["CSo21UITableViewController", "UITableViewCell"]
+- !private ["CSo21UITableViewController", "clearsSelectionOnViewWillAppear"]
 - ["CSo21UITableViewController", "didReceiveMemoryWarning"]
+- !private ["CSo21UITableViewController", "editButtonItem"]
 - ["CSo21UITableViewController", "init"]
-- ["CSo21UITableViewController", "loadInitialData"]
+- !private ["CSo21UITableViewController", "navigationItem"]
 - ["CSo21UITableViewController", "numberOfSections"]
+- ["CSo21UITableViewController", "syncClient"]
 - ["CSo21UITableViewController", "tableView"]
 - ["CSo21UITableViewController", "toDoItems"]
 - ["CSo21UITableViewController", "unwindToList"]
 - ["CSo21UITableViewController", "viewDidLoad"]
 - ["CSo21UITableViewController", ""]
-- !private ["PSo21UITableViewDataSource", "ToDoItem"]
+- !private ["PSo21UITableViewDataSource", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
+- !private ["PSo21UITableViewDataSource", "editButtonItem"]
 - !private ["PSo21UITableViewDataSource", "init"]
-- !private ["PSo21UITableViewDataSource", "loadInitialData"]
+- !private ["PSo21UITableViewDataSource", "navigationItem"]
 - !private ["PSo21UITableViewDataSource", "tableView"]
 - !private ["PSo21UITableViewDataSource", "toDoItems"]
 - !private ["PSo21UITableViewDataSource", "viewDidLoad"]
 - ["PSo21UITableViewDataSource", ""]
-- !private ["PSo19UITableViewDelegate", "ToDoItem"]
+- !private ["PSo19UITableViewDelegate", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo19UITableViewDelegate", "editButtonItem"]
 - !private ["PSo19UITableViewDelegate", "init"]
-- !private ["PSo19UITableViewDelegate", "loadInitialData"]
+- !private ["PSo19UITableViewDelegate", "navigationItem"]
 - !private ["PSo19UITableViewDelegate", "tableView"]
 - !private ["PSo19UITableViewDelegate", "toDoItems"]
 - !private ["PSo19UITableViewDelegate", "viewDidLoad"]
 - ["PSo19UITableViewDelegate", ""]
-- !private ["PSo18UITraitEnvironment", "ToDoItem"]
 - !private ["PSo18UITraitEnvironment", "accessoryType"]
+- !private ["PSo18UITraitEnvironment", "clearsSelectionOnViewWillAppear"]
 - !private ["PSo18UITraitEnvironment", "dequeueReusableCell"]
 - !private ["PSo18UITraitEnvironment", "deselectRow"]
 - !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "editButtonItem"]
 - !private ["PSo18UITraitEnvironment", "init"]
-- !private ["PSo18UITraitEnvironment", "loadInitialData"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
 - !private ["PSo18UITraitEnvironment", "tableView"]
 - !private ["PSo18UITraitEnvironment", "text"]
@@ -544,13 +580,17 @@ depends-member:
 - !private ["CSo16UIViewController", "NSString"]
 - !private ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "ToDoItem"]
+- ["CSo16UIViewController", "TwilioSyncClient"]
 - ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
+- !private ["CSo16UIViewController", "clearsSelectionOnViewWillAppear"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "editButtonItem"]
 - ["CSo16UIViewController", "init"]
-- ["CSo16UIViewController", "loadInitialData"]
+- !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "numberOfSections"]
+- ["CSo16UIViewController", "syncClient"]
 - ["CSo16UIViewController", "tableView"]
 - !private ["CSo16UIViewController", "toDoItem"]
 - ["CSo16UIViewController", "toDoItems"]
@@ -566,26 +606,26 @@ depends-member:
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
-- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
-- !private ["Ps9_Hashable", "ToDoItem"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "accessoryType"]
 - !private ["Ps9_Hashable", "add"]
 - !private ["Ps9_Hashable", "checkmark"]
+- !private ["Ps9_Hashable", "clearsSelectionOnViewWillAppear"]
 - !private ["Ps9_Hashable", "completed"]
 - !private ["Ps9_Hashable", "count"]
 - !private ["Ps9_Hashable", "dequeueReusableCell"]
 - !private ["Ps9_Hashable", "deselectRow"]
 - !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "editButtonItem"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "itemName"]
-- !private ["Ps9_Hashable", "loadInitialData"]
+- !private ["Ps9_Hashable", "navigationItem"]
 - !private ["Ps9_Hashable", "none"]
 - !private ["Ps9_Hashable", "object"]
 - !private ["Ps9_Hashable", "reloadData"]
+- !private ["Ps9_Hashable", "rightBarButtonItem"]
 - !private ["Ps9_Hashable", "row"]
 - !private ["Ps9_Hashable", "source"]
 - !private ["Ps9_Hashable", "tableView"]
@@ -599,7 +639,6 @@ depends-member:
 - !private ["Ps14_IndexableBase", "row"]
 - !private ["Ps17_MutableIndexable", "row"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "row"]
 - !private ["Ps22_RandomAccessIndexable", "row"]
 depends-nominal:
@@ -624,7 +663,6 @@ depends-nominal:
 - "Ps8Hashable"
 - !private "V10Foundation9IndexPath"
 - !private "Ps25LosslessStringConvertible"
-- !private "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
 - !private "CSo7NSArray"
 - "PSo8NSCoding"
@@ -642,9 +680,6 @@ depends-nominal:
 - !private "P10Foundation20ReferenceConvertible"
 - !private "Ps8Sequence"
 - !private "Vs12StaticString"
-- !private "SS"
-- !private "Ps16TextOutputStream"
-- !private "Ps20TextOutputStreamable"
 - !private "C24TwilioSyncCollabToDoList8ToDoItem"
 - "C24TwilioSyncCollabToDoList27ToDoListTableViewController"
 - !private "PSo29UIAccessibilityIdentification"
@@ -658,6 +693,7 @@ depends-nominal:
 - !private "PSo11UIFocusItem"
 - !private "PSo27UIGestureRecognizerDelegate"
 - !private "CSo7UILabel"
+- !private "CSo16UINavigationItem"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - !private "CSo12UIScrollView"
@@ -678,9 +714,7 @@ depends-nominal:
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
-- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
-- !private "Ps33_ExpressibleByStringInterpolation"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
 - !private "Ps10_Indexable"
@@ -712,12 +746,18 @@ depends-external:
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/Firebase/Core/Sources/Firebase.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMapItem.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSListItem.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMap.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSError.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMapPaginator.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSListPaginator.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
@@ -725,10 +765,19 @@ depends-external:
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSOpenOptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSMapQueryOptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSListQueryOptions.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSConstants.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSResult.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TwilioSyncClient.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSDocument.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Headers/TWSList.h"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "872016f3363f1ec5e38a96cd18fe0396"
+- "/Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/Pods/TwilioSyncClient/TwilioSyncClient.framework/Modules/module.modulemap"
+interface-hash: "d9a8f68371925d26f89790501c231927"

@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/lizziesiegle/Desktop/programming/ios/TwilioSyncCollabToDoList/DerivedData/TwilioSyncCollabToDoList/Build/Intermediates.noindex/SwiftMigration/TwilioSyncCollabToDoList/Intermediates.noindex/Pods.build/Debug-iphonesimulator/GoogleToolboxForMac.build/DerivedSources/GoogleToolboxForMac_vers.c
